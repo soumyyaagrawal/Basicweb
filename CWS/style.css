@@ -1,0 +1,12 @@
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+	    border-radius: 12px;
+            
+        }
+        
+        em{color: aliceblue;}
+        #syllabusButton:hover{
+            box-shadow: 0 8px 16px 0 rgba(255,0,0,0.2), 0 6px 20px 0 rgba(150,78,0,0.19);
+          }

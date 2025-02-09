@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    
+<head> <link rel="stylesheet" href="style.css">
+<body style="background-image: url(gifwallpaper.gif); background-size: canvas; color:aliceblue; text-align: center; font-size:25px" >
+
+<h2>HTML Forms</h2>
+
+
+<form action="/action_page.php">
+  <label ><b>First name:</b></label><br>
+  <input type="text" id="fname" name="fname" ><br>
+
+  <label for="lname"><b>Last name:</b></label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+
+<label for="gdr"><b>Gender:</b></label><br>
+  <input type="radio" id="gdr" name="gdr" value = male>
+<label for="male">Male</label> <br>
+
+<input type="radio" id="gdr" name="gdr" value =  female>
+<label for="female">Female</label> <br>
+<input type="radio" id="gdr" name="gdr" value =  none>
+<label for="none">Prefer not to say</label> <br><br>
+
+
+<label><b>Choose your Transportation:</b></label><br>
+ <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Scooty</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Auto </label><br><br>
+ 
+ 
+ 
+
+
+<label for="brch"><b>Choose a Branch:</b></label><br>
+  <select id="brch" name="brch" style="  background-color:beige;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;"><br>
+<option style="font-size: 15px;" value="CSE">CSE</option>
+  <option style="font-size: 15px;" value="AiMl">AiMl</option>
+  <option style="font-size: 15px;" value="ECS">ECS</option>
+  <option style="font-size: 15px;" value="Civil">Civil</option>
+</select><br><br>
+
+
+
+
+
+  <button type="button" style=" font-size: 20px;font-family:'Times New Roman', Times, serif ; padding: 15px; font-weight: bold; " >Submit</button>
+</form>
+
+<h2>RESOURCES</h2>
+<ul>
+      <li><br><button id="syllabusButton">Syllabus</button></li>
+<script>
+document.getElementById("syllabusButton").onclick = function() {
+window.open("syllabus.pdf", "_blank");
+};
+</script><br>
+
+   <li><button id="syllabusButton">List of Experiments</button></li>
+</ul>
+
+<script>
+
+document.getElementById("experimentListButton").onclick = function() {
+window.open("exp.pdf", "_blank");
+};
+</script>
+  <ul>  <h2 style="color: aliceblue; font-weight: bold;"> Template of Experiment</h2>
+
+  </ul>
+
+<button id="pdf1Button">PDF 1</button></li>
+<button id="pdf2Button">PDF 2</button></li>
+<button id="pdf3Button">PDF 3</button></li>
+<button id="pdf4Button">PDF 4</button></li>
+<button id="pdf5Button">PDF 5</button></li>
+<button id="pdf6Button">PDF 6</button></li>
+<button id="pdf7Button">PDF 7</button></li>
+<button id="pdf8Button">PDF 8</button></li>
+<br>
+
+<script>
+
+document.getElementById("pdf1Button").onclick = function() {
+window.open("lab1.pdf", "_blank");
+};
+document.getElementById("pdf2Button").onclick = function() {
+window.open("lab2.pdf", "_blank");
+};
+document.getElementById("pdf3Button").onclick = function() {
+window.open("lab3.pdf", "_blank");
+};
+document.getElementById("pdf4Button").onclick = function() {
+window.open("lab4.pdf", "_blank");
+};
+document.getElementById("pdf5Button").onclick = function() {
+window.open("lab5.pdf", "_blank");
+};
+document.getElementById("pdf6Button").onclick = function() {
+window.open("lab6.pdf", "_blank");
+};
+document.getElementById("pdf7Button").onclick = function() {
+window.open("lab7.pdf");
+};
+document.getElementById("pdf8Button").onclick = function() {
+window.open("lab8.pdf");};
+
+
+
+
+</script>
+
+
+</body>
+</html>
